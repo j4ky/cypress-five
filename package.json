@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "cypress": "^9.2.0"
+  },
+  "scripts": {
+    "cypress:five": "npx cypress run --spec cypress/integration/cypress-five/user_can_create_an_account.spec.js,cypress/integration/cypress-five/user_can_logout_and_login_with_his_created_account.spec.js,cypress/integration/cypress-five/user_can_view_products.spec.js,cypress/integration/cypress-five/user_can_search_for_products.spec.js,cypress/integration/cypress-five/user_can_add_products_to_the_cart.spec.js,cypress/integration/cypress-five/user_can_finish_product_purchase.spec.js"
   }
 }

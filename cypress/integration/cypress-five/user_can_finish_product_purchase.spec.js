@@ -39,7 +39,7 @@ context('Purchases', () => {
     cy.get('#button-payment-address').click()
     cy.get('#button-shipping-address').click()
     cy.get('#button-shipping-method').click()
-    cy.get('innput[name=agree]').check()
+    cy.get('input[name=agree]').check()
     cy.get('#button-payment-method').click()
     cy.get('#button-confirm').click()
     cy.contains('Your order has been placed!').should('be.visible')
