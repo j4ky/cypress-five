@@ -2,7 +2,7 @@
 
 context('Search', () => {
   beforeEach(() => {
-    cy.visit('https://demo.opencart.com/')
+    cy.visit('/')
   })
 
   it('User can search for products', () => {

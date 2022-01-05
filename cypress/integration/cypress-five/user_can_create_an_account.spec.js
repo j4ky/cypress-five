@@ -4,7 +4,7 @@ import fix from '../../fixtures/five-fixtures.json'
 
 context('Registration', () => {
   beforeEach(() => {
-    cy.visit('https://demo.opencart.com/')
+    cy.visit('/')
   })
 
   it('user can create an account', () => {

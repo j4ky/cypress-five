@@ -2,7 +2,7 @@
 
 context('Login', () => {
   beforeEach(() => {
-    cy.visit('https://demo.opencart.com/')
+    cy.visit('/')
   })
 
   it('User can login', () => {

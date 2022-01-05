@@ -2,7 +2,7 @@
 
 context('Purchases', () => {
   beforeEach(() => {
-    cy.visit('https://demo.opencart.com/')
+    cy.visit('/')
   })
 
   it('User can finish product purchase', () => {
@@ -18,7 +18,7 @@ context('Purchases', () => {
       cy.get('a').contains('Logout').should('be.visible')
     })
 
-    cy.visit('https://demo.opencart.com/')
+    cy.visit('/')
     cy.contains('Desktops').click()
     cy.get('a').contains('Show All Desktops').click()
     cy.get('[onclick="cart.add(\'47\', \'1\');"').click()

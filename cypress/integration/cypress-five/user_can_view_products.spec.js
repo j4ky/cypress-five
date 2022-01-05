@@ -2,7 +2,7 @@
 
 context('Detail view', () => {
   beforeEach(() => {
-    cy.visit('https://demo.opencart.com/')
+    cy.visit('/')
   })
 
   it('User can view products', () => {
