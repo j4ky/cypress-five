@@ -5,7 +5,7 @@ context('Shopping cart', () => {
     cy.visit('/')
   })
 
-  it('User can search for products', () => {
+  it('User can add products to the cart', () => {
     
     cy.contains('Desktops').click()
     cy.get('a').contains('Show All Desktops').click()
