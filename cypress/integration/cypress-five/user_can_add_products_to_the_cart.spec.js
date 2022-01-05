@@ -13,8 +13,8 @@ context('Shopping cart', () => {
     cy.get('[onclick="cart.add(\'29\', \'1\');"').click()
     cy.get('#cart-total').click()
     cy.contains('View Cart').click()
-    cy.contains('HTC Touch HD')
-    cy.contains('Palm Treo Pro')
+    cy.contains('HTC Touch HD').should('exist')
+    cy.contains('Palm Treo Pro').should('exist')
   
   })
 
